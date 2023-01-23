@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %} FizzBuzz {% endblock %}
+{% block content %}
+<form method="post">
+    <h3 align="center">Fizz Buzz Game!</h3>
+    <!--Using bootstrap class-->
+    <div class="form-group">
+        <label for="user_input">Please input a number:</label>
+        <input
+                type="text"
+                class="form-control"
+                id="user_input"
+                name="user_input"
+                placeholder="Enter your input"
+        />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit my Input!</button>
+</form>
+{% endblock %}
