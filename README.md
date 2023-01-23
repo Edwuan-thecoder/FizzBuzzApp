@@ -21,3 +21,5 @@ I would as mention earlier add more to the frontend design and most likely use a
  I would make sure security key is hidden.
  
  I would also make sure the server can handle more traffic on it as well.
+ 
+ And mainly add some Docker containers for ease of use for others, which I would've here but again for this small web app didn't think it was necessary.
